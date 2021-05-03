@@ -2,13 +2,6 @@ const fs = require("fs").promises;
 const path = require("path");
 
 const contactsPath = path.join(__dirname, "/db/contact.json");
-const arf = 4;
-
-const pname = () => {
-  console.log(contactsPath);
-};
-
-function readContacts(fileName) {}
 
 async function listContacts() {
   try {
